@@ -8,6 +8,6 @@ def cek_prima(n):
     return True
         
 if cek_prima(bil):
-    print(f"{bil} prima")
+    print(f"{bil} bilangan prima")
 else:
-    print(f"{bil} bukan prima")
+    print(f"{bil} bukan bilangan prima")
