@@ -11,4 +11,4 @@ try:
    elif usia > 45:
     print("Lansia")
 except:
-  print("Anda salah memasukkan salah memasukkan usia")
+  print("Anda salah memasukkan usia")

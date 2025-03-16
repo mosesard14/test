@@ -1,6 +1,10 @@
-def kali(x, y):
-    return x * y
-kali_lambda = lambda x, y: x * y
+def tambah(a, b, c):
+    d = a + b
+    a = d + b
+    b = a + c
+    c = b + d
 
-print(kali(3, 4))
-print(kali_lambda(3,4))
+a = 1
+b = 2
+c = 3
+hasil = print(tambah(a=10, b=20, c=30))
