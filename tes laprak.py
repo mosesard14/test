@@ -1,6 +1,4 @@
-umur = 19
-status = 'Pelajar'
-if umur > 18 and (status == 'Pelajar' or status == 'pekerja'):
-    print('anda seorang pekerja')
-else:
-    print(status)
+for i in range(1, 10):
+    if i == 5:
+        continue
+    print(i)
