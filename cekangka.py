@@ -5,4 +5,4 @@ def cek_angka(a, b, c):
         elif a != b or a != c or b != c:
             return False
     return True
-print(cek_angka(3,3,8))
+print(cek_angka(3,4,8))
